@@ -20,23 +20,24 @@ Coloca o diretório em uma área de teste ex: localhost
 Para testar local você pode usar o XAMPP ou WAMPP, ambos possuem o (Apache, PHP e MySQL).
 
 
- - Questão 1
+ ## Questão 1
 
 Escreva um programa que imprima números de 1 a 100. Mas, para múltiplos de 3 imprima “Fizz” em vez do número e para múltiplos de 5 imprima “Buzz”. Para números múltiplos de ambos (3 e 5), imprima “FizzBuzz”.
 
-Solução:
+### Solução:
 
-Função simples com calculo de módulo de 3 e 5.
+* Função simples com calculo de módulo de 3 e 5.
 
-Acesse http://localhost/nomedoprojeto/questao1/
+* Acesse http://localhost/nomedoprojeto/questao1/
 
-Arquivo index.php na pasta questao1
+* Arquivo index.php na pasta questao1
 
 
-- Questão 2
+## Questão 2
 
 Refatore o código abaixo, fazendo as alterações que julgar necessário.
 
+```PHP
 <?
 if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
     header("Location: http://www.google.com");
@@ -45,24 +46,27 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
     header("Location: http://www.google.com");
     exit();
 }
+```
 
-Solução:
+### Solução:
 
 * Inserido o inicio da session para gravar a e a opção caso o usuário não esteja logado.
 * Adequada às regras da psr-2
 
-Instalação
+### Instalação:
 
-O mesmo deve ser aberto em um editor de texto ou IDE de sua preferência.
+* O mesmo deve ser aberto em um editor de texto ou IDE de sua preferência.
 
-Acesse http://localhost/nomedoprojeto/questao2/
+* Acesse http://localhost/nomedoprojeto/questao2/
 
-Arquivo index.php na pasta questao2
+* Arquivo index.php na pasta questao2
 
-- Questão 3
+
+## Questão 3
 
 Refatore o código abaixo, fazendo as alterações que julgar necessário.
 
+```PHP
 <?php
 
 class MyUserClass
@@ -77,50 +81,54 @@ class MyUserClass
         return $results;
     }
 }
+```
 
-Solução:
+### Solução:
 
 * Foi inserido os dados do banco e inserido a busca para trazer os resultados
 * Adequada às regras da psr-2
 
-Instalação
+### Instalação:
 
-O mesmo deve ser aberto em um editor de texto ou IDE de sua preferência.
+* O mesmo deve ser aberto em um editor de texto ou IDE de sua preferência.
 
-Acesse http://localhost/nomedoprojeto/questao3/
+* Acesse http://localhost/nomedoprojeto/questao3/
 
-Arquivo index.php na pasta questao3
+* Arquivo index.php na pasta questao3
 
 
-- Questão 4
+## Questão 4
 
 Desenvolva uma API Rest para um sistema gerenciador de tarefas
 (inclusão/alteração/exclusão). As tarefas consistem em título e descrição, ordenadas por
 prioridade.
 
-Solução:
+### Solução:
 
 * Framework Cakephp
 * Criado interface do painel para gerenciamento das tarefas
 * Adequada às regras da psr-2
 * Totalmente responsivo (desktop e mobile)
 
-Instalação
+Instalação:
 
-Colocar a pasta "questao4" no servidor
-Importar o arquivo "question4/bancodedados/dbase.sql" no PhpMyAdmin ou diretamente no console mysql
-Reconfigurar os dados de acesso a banco no arquivo "question4/config/app.php" adequando "host", "username" e "password".
-Por padrão encontra-se:
+* Colocar a pasta "questao4" no servidor
+* Importar o arquivo "question4/bancodedados/dbase.sql" no PhpMyAdmin ou diretamente no console mysql
+* Reconfigurar os dados de acesso a banco no arquivo "question4/config/app.php" adequando "host", "username" e "password".
+* Por padrão encontra-se:
 
+```PHP
 'username' => 'root',
 'password' => 'root',
 'database' => 'bdr_tarefas',
-
+```
 
 Foi utilizado o Framework CakePHP 3, com isso para ter acesso visual ao projeto, você pode estar startando o servidor,
 através do diretório testeBDR/questao4/bin e execute o comando:
 
+```BASH
 cake server
+```
 
 Após isso acesse http://localhost:8765/
 
