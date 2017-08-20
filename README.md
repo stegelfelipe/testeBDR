@@ -110,7 +110,7 @@ prioridade.
 * Adequada às regras da psr-2
 * Totalmente responsivo (desktop e mobile)
 
-Instalação:
+### Instalação:
 
 * Colocar a pasta "questao4" no servidor
 * Importar o arquivo "question4/bancodedados/dbase.sql" no PhpMyAdmin ou diretamente no console mysql
@@ -134,10 +134,10 @@ Após isso acesse http://localhost:8765/
 
 ## ScreenShots do Projeto
 
-Listas de Tarefas - http://prntscr.com/gaqybr
-Add Nova Tarefa - http://prntscr.com/gaqyg8
-Ver a Tarefa - http://prntscr.com/gaqynh
-Editar a Tarefa - http://prntscr.com/gaqz05
+* Listas de Tarefas - http://prntscr.com/gaqybr
+* Add Nova Tarefa - http://prntscr.com/gaqyg8
+* Ver a Tarefa - http://prntscr.com/gaqynh
+* Editar a Tarefa - http://prntscr.com/gaqz05
 Remover a Tarefa - http://prntscr.com/gaqz96
 
 
